@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<robot name="robot_prismatic">
+
+  <link name="base_link">
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia 
+        ixx="0.1" ixy="0.0" ixz="0.0"
+        iyy="0.1" iyz="0.0"
+        izz="0.1"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><box size="3 1 1"/></geometry>
+      <material name="Red"><color rgba="1.0 0.0 0.0 1.0"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><box size="3 1 1"/></geometry>
+    </collision>
+  </link>
+
+  <link name="link1">
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <inertia 
+        ixx="0.05" ixy="0.0" ixz="0.0"
+        iyy="0.05" iyz="0.0"
+        izz="0.05"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <geometry><box size="4 1 1"/></geometry>
+      <material name="Blue"><color rgba="0.0 0.0 1.0 1.0"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <geometry><box size="4 1 1"/></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_prismatic_1" type="prismatic">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <axis xyz="1 0 0"/>
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    <limit lower="-1.5" upper="1.5" effort="10" velocity="0.1"/>
+  </joint>
+
+</robot>

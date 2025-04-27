@@ -1,0 +1,9 @@
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/uninstall.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/practica_1_uninstall.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/test.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/edit_cache.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/rebuild_cache.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/list_install_components.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/install.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/install/local.dir
+/home/robousr/Robotica2025-2/robolab20252/Practica1/ros2_ws/build/practica_1/CMakeFiles/install/strip.dir
