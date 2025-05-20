@@ -1,0 +1,19 @@
+[2.117s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/build --no-deps symlink_data
+[2.954s] running develop
+[3.607s] running egg_info
+[3.608s] writing scara_bringup.egg-info/PKG-INFO
+[3.610s] writing dependency_links to scara_bringup.egg-info/dependency_links.txt
+[3.612s] writing entry points to scara_bringup.egg-info/entry_points.txt
+[3.613s] writing requirements to scara_bringup.egg-info/requires.txt
+[3.614s] writing top-level names to scara_bringup.egg-info/top_level.txt
+[3.622s] reading manifest file 'scara_bringup.egg-info/SOURCES.txt'
+[3.624s] writing manifest file 'scara_bringup.egg-info/SOURCES.txt'
+[3.634s] running build_ext
+[3.635s] Creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages/scara-bringup.egg-link (link to .)
+[3.637s] Installing mobile_control script to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/bin
+[3.638s] Installing scara_test script to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/bin
+[3.639s] Installing scara_tray_line script to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/bin
+[3.640s] 
+[3.641s] Installed /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup
+[3.642s] running symlink_data
+[3.739s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup' returned '0': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/build --no-deps symlink_data

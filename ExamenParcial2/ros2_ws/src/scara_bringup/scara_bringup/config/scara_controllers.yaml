@@ -1,0 +1,19 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+    scara_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+      joints:
+        - link_1_joint
+        - link_2_joint
+        - link_3_joint
+      interface_name: position
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcasterls
