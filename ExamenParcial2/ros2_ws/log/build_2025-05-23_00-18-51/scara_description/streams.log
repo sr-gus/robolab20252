@@ -1,0 +1,146 @@
+[1.297s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_control:/opt/ros/humble /usr/bin/cmake /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description
+[1.431s] -- The C compiler identification is GNU 11.4.0
+[1.565s] -- The CXX compiler identification is GNU 11.4.0
+[1.583s] -- Detecting C compiler ABI info
+[1.797s] -- Detecting C compiler ABI info - done
+[1.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.820s] -- Detecting C compile features
+[1.821s] -- Detecting C compile features - done
+[1.830s] -- Detecting CXX compiler ABI info
+[2.055s] -- Detecting CXX compiler ABI info - done
+[2.081s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.085s] -- Detecting CXX compile features
+[2.086s] -- Detecting CXX compile features - done
+[2.087s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.938s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[4.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.314s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[4.436s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[4.442s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[4.524s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.536s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.556s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.707s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.716s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.774s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.919s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.928s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.960s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.966s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.986s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.008s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.028s] -- Looking for pthread.h
+[5.226s] -- Looking for pthread.h - found
+[5.226s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.431s] -- Found Threads: TRUE  
+[5.607s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.610s] -- Checking for module 'bullet>=2.82'
+[5.647s] --   Found bullet, version 3.05
+[5.953s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[6.110s] -- Found assimp: /usr/include (found version "5.2.0") 
+[6.158s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.222s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.256s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[6.271s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.285s] -- Searching for dependencies of ignition-math6
+[6.289s] -- Looking for OGRE...
+[6.290s] -- OGRE_PREFIX_WATCH changed.
+[6.303s] -- Checking for module 'OGRE'
+[6.338s] --   Found OGRE, version 1.9.0
+[6.435s] -- Found Ogre Ghadamon (1.9.0)
+[6.462s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.484s] -- Looking for OGRE_Paging...
+[6.494s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.495s] -- Looking for OGRE_Terrain...
+[6.506s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.506s] -- Looking for OGRE_Property...
+[6.517s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.518s] -- Looking for OGRE_RTShaderSystem...
+[6.529s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.530s] -- Looking for OGRE_Volume...
+[6.540s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.541s] -- Looking for OGRE_Overlay...
+[6.553s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.815s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.821s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.822s] -- Searching for dependencies of ignition-transport8
+[6.866s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.906s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.917s] -- Checking for module 'libzmq >= 4'
+[6.953s] --   Found libzmq , version 4.3.4
+[7.054s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.069s] -- Checking for module 'uuid'
+[7.106s] --   Found uuid, version 2.37.2
+[7.206s] -- Found UUID: TRUE  
+[7.213s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.214s] -- Searching for dependencies of ignition-msgs5
+[7.260s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.277s] -- Checking for module 'tinyxml2'
+[7.314s] --   Found tinyxml2, version 9.0.0
+[7.411s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.418s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.419s] -- Searching for dependencies of ignition-common3
+[7.420s] -- Looking for dlfcn.h - found
+[7.421s] -- Looking for libdl - found
+[7.425s] -- Found DL: TRUE  
+[7.452s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[7.453s] -- Searching for <ignition-common3> component [graphics]
+[7.460s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[7.461s] -- Searching for dependencies of ignition-common3-graphics
+[7.461s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.469s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[7.470s] -- Searching for dependencies of ignition-fuel_tools4
+[7.681s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[7.703s] -- Checking for module 'jsoncpp'
+[7.740s] --   Found jsoncpp, version 1.9.5
+[7.832s] -- Found JSONCPP: TRUE  
+[7.845s] -- Checking for module 'libzip'
+[7.882s] --   Found libzip, version 1.7.3
+[7.977s] -- Found ZIP: TRUE  
+[7.978s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.979s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.979s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.988s] -- Gazebo version: 11.10
+[7.989s] -- Checking for module 'tbb'
+[8.027s] --   Found tbb, version 2021.5.0
+[8.127s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.432s] -- Added test 'lint_cmake' to check CMake code style
+[8.438s] -- Added test 'xmllint' to check XML markup files
+[8.443s] -- Configuring done
+[8.459s] -- Generating done
+[8.465s] -- Build files have been written to: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description
+[8.489s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_control:/opt/ros/humble /usr/bin/cmake /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description
+[8.496s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_control:/opt/ros/humble /usr/bin/cmake --build /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description -- -j4 -l4
+[8.606s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_control:/opt/ros/humble /usr/bin/cmake --build /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description -- -j4 -l4
+[8.698s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_control:/opt/ros/humble /usr/bin/cmake --install /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description
+[8.716s] -- Install configuration: ""
+[8.718s] -- Execute custom install script
+[8.720s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara-checkpoint.urdf
+[8.742s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara_manual-checkpoint.urdf
+[8.764s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/base_link.stl
+[8.785s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/link11.stl
+[8.808s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/link21.stl
+[8.830s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/link31.stl
+[8.853s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/scara.urdf
+[8.875s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/scara_cad.urdf
+[8.899s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/scara_test.urdf
+[8.921s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//rviz/scara_rviz.rviz
+[8.946s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+[8.967s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+[8.992s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+[9.016s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+[9.040s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/path.sh
+[9.062s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/path.dsv
+[9.086s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.bash
+[9.111s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.sh
+[9.133s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.zsh
+[9.159s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.dsv
+[9.182s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/package.dsv
+[9.205s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description
+[9.228s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+[9.253s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+[9.277s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/package.xml
+[9.307s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_bringup:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/install/scara_control:/opt/ros/humble /usr/bin/cmake --install /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description

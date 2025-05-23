@@ -1,3 +1,3 @@
 [console_scripts]
-scara_tray_line = scara_bringup.scara_tray_line_py:main
+initial_joint_state = scara_bringup.initial_joint_state_publisher_py:main
 

@@ -1,0 +1,16 @@
+[2.294s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build --no-deps
+[2.919s] running develop
+[3.344s] running egg_info
+[3.345s] writing scara_control.egg-info/PKG-INFO
+[3.345s] writing dependency_links to scara_control.egg-info/dependency_links.txt
+[3.345s] writing entry points to scara_control.egg-info/entry_points.txt
+[3.345s] writing requirements to scara_control.egg-info/requires.txt
+[3.345s] writing top-level names to scara_control.egg-info/top_level.txt
+[3.351s] reading manifest file 'scara_control.egg-info/SOURCES.txt'
+[3.351s] writing manifest file 'scara_control.egg-info/SOURCES.txt'
+[3.354s] running build_ext
+[3.355s] Creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara-control.egg-link (link to .)
+[3.359s] Installing scara_tray_line script to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/scara_control
+[3.359s] 
+[3.359s] Installed /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control
+[3.421s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control' returned '0': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build --no-deps

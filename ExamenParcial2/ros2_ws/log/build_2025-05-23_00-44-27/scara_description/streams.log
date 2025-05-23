@@ -1,0 +1,31 @@
+[1.440s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description -- -j4 -l4
+[1.545s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description -- -j4 -l4
+[1.642s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description
+[1.672s] -- Install configuration: ""
+[1.673s] -- Execute custom install script
+[1.678s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara-checkpoint.urdf
+[1.678s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara_manual-checkpoint.urdf
+[1.680s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/base_link.stl
+[1.682s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/link11.stl
+[1.683s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/link21.stl
+[1.686s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/link31.stl
+[1.687s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/scara.urdf
+[1.689s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/scara_cad.urdf
+[1.690s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/scara_test.urdf
+[1.693s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//rviz/scara_rviz.rviz
+[1.693s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+[1.696s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+[1.697s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+[1.700s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+[1.700s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/path.sh
+[1.703s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/environment/path.dsv
+[1.704s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.bash
+[1.704s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.sh
+[1.704s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.zsh
+[1.704s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/local_setup.dsv
+[1.704s] -- Symlinking: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/package.dsv
+[1.734s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description
+[1.736s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+[1.738s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+[1.745s] -- Up-to-date symlink: /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description/package.xml
+[1.746s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description

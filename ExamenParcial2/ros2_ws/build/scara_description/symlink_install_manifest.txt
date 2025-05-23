@@ -1,4 +1,3 @@
-/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//launch/scara_display.launch.py
 /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara-checkpoint.urdf
 /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara_manual-checkpoint.urdf
 /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_description/share/scara_description//urdf/meshes/base_link.stl
