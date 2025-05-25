@@ -1,1 +1,0 @@
-/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_description/ament_cmake_core/scara_descriptionConfig-version.cmake

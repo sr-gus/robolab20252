@@ -1,1 +1,0 @@
-/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_bringup/setup.py

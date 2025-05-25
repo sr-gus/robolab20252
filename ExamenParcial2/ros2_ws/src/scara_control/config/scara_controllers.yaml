@@ -1,0 +1,51 @@
+# scara_control/config/scara_controllers.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+    autostart: true
+
+    # 1) Publicar estados de todas las interfaces disponibles
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # 2) Control de trayectoria de tu SCARA
+    scara_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+      # Lista de juntas a controlar
+      joints:
+        - link_1_joint
+        - link_2_joint
+        - link_3_joint
+
+      # Sobre qué interfaz de comando trabaja
+      command_interfaces:
+        - position
+
+      # Interfaces de estado que publicará
+      state_interfaces:
+        - position
+        - velocity
+        - effort
+
+      # Permite terminar con velocidad distinta de cero (opcional)
+      allow_nonzero_velocity_at_trajectory_end: true
+
+      # Ganancias PID para cada junta
+      gains:
+        link_1_joint:
+          p: 100.0
+          d: 1.0
+        link_2_joint:
+          p: 100.0
+          d: 1.0
+        link_3_joint:
+          p: 100.0
+          d: 1.0
+
+      # Parámetros de la trayectoria
+      constraints:
+        goal_time: 0.6
+        stopped_velocity_tolerance: 0.01
+
+      state_publish_rate: 25

@@ -1,66 +1,87 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+from rclpy.exceptions import ParameterAlreadyDeclaredException
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 from sensor_msgs.msg import JointState
 from builtin_interfaces.msg import Duration
-from rclpy.duration import Duration as RosDuration
 from math import cos, sin, acos, atan2, sqrt
 
 class ScaraTrayLineNode(Node):
     def __init__(self):
         super().__init__('scara_tray_line_node')
-        self.joints_ = ['link_1_joint', 'link_2_joint', 'link_3_joint']
 
-        # Duración total de la trayectoria (segundos)
+        # Declaramos use_sim_time si no lo estaba
+        try:
+            self.declare_parameter('use_sim_time', True)
+        except ParameterAlreadyDeclaredException:
+            pass
+
+        if self.get_parameter('use_sim_time').value:
+            self.get_logger().info('Usando /clock para sim time')
+
+        self.joints_ = ['link_1_joint', 'link_2_joint', 'link_3_joint']
         self.total_time = 10.0
 
-        # Marca de tiempo de inicio
-        self.start_time = self.get_clock().now()
+        # start_time queda vacío hasta que clock > 0
+        self.start_time = None
 
         # Publishers
         self.state_pub = self.create_publisher(JointState, '/joint_states', 10)
-        self.traj_pub  = self.create_publisher(JointTrajectory, '/scara_trajectory_controller/joint_trajectory', 10)
+        self.traj_pub  = self.create_publisher(
+            JointTrajectory,
+            '/scara_trajectory_controller/joint_trajectory',
+            10
+        )
 
         # Timer a 50 Hz
-        self.timer = self.create_timer(1.0/50.0, self.timer_callback)
+        self.create_timer(1.0/50.0, self.timer_callback)
         self.get_logger().info('Nodo SCARA activo: tray. línea recta, 50 Hz')
 
     def timer_callback(self):
         now = self.get_clock().now()
-        elapsed = (now - self.start_time).nanoseconds * 1e-9  # en segundos
+
+        # Primera llamada: inicializamos start_time cuando clock > 0
+        if self.start_time is None:
+            if now.nanoseconds == 0:
+                return
+            self.start_time = now
+            return
+
+        elapsed = (now - self.start_time).nanoseconds * 1e-9  # segundos
         t = min(elapsed / self.total_time, 1.0)
 
-        # Cinemática inversa parametrizada por t∈[0,1]
-        sol = invk_sol(t,
-            x_in=0.6, y_in=0.1, theta_in=0,
+        # Cinemática inversa
+        sol = invk_sol(
+            t,
+            x_in=0.6, y_in=0.1, theta_in=0.0,
             x_fin=0.4, y_fin=-0.4, theta_fin=-0.75
         )
 
-        # Publica JointState para RViz
+        # 1) JointState (RViz & broadcaster)
         js = JointState()
         js.header.stamp = now.to_msg()
         js.name = self.joints_
         js.position = sol
         self.state_pub.publish(js)
 
-        # Publica JointTrajectory (opcional)
+        # 2) JointTrajectory (controller)
         traj = JointTrajectory()
         traj.joint_names = self.joints_
         pt = JointTrajectoryPoint()
         pt.positions = sol
-        pt.time_from_start = Duration(sec=int(elapsed), nanosec=int((elapsed%1)*1e9))
+        pt.time_from_start = Duration(
+            sec=int(elapsed),
+            nanosec=int((elapsed % 1) * 1e9)
+        )
         traj.points = [pt]
         self.traj_pub.publish(traj)
 
-        # Cuando termine, detén el timer
         if t >= 1.0:
             self.get_logger().info('Trayectoria completada')
-            self.timer.cancel()
-
+            # opcional: self.destroy_node()
 
 def invk_sol(u, x_in, y_in, theta_in, x_fin, y_fin, theta_fin):
-    # u ∈ [0,1]
     L1, L2, L3 = 0.5, 0.5, 0.3
     xP = x_in + u*(x_fin - x_in)
     yP = y_in + u*(y_fin - y_in)
@@ -74,13 +95,11 @@ def invk_sol(u, x_in, y_in, theta_in, x_fin, y_fin, theta_fin):
     theta3 = thetaP - theta1 - theta2
     return [theta1, theta2, theta3]
 
-
 def main(args=None):
     rclpy.init(args=args)
     node = ScaraTrayLineNode()
     rclpy.spin(node)
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
