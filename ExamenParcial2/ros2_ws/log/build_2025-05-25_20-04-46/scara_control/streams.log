@@ -1,0 +1,44 @@
+[2.505s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_control': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_control build --build-base /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build install --record /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/install.log --single-version-externally-managed install_data
+[3.483s] running egg_info
+[3.485s] creating ../../build/scara_control/scara_control.egg-info
+[3.486s] writing ../../build/scara_control/scara_control.egg-info/PKG-INFO
+[3.490s] writing dependency_links to ../../build/scara_control/scara_control.egg-info/dependency_links.txt
+[3.496s] writing entry points to ../../build/scara_control/scara_control.egg-info/entry_points.txt
+[3.496s] writing requirements to ../../build/scara_control/scara_control.egg-info/requires.txt
+[3.496s] writing top-level names to ../../build/scara_control/scara_control.egg-info/top_level.txt
+[3.499s] writing manifest file '../../build/scara_control/scara_control.egg-info/SOURCES.txt'
+[3.506s] reading manifest file '../../build/scara_control/scara_control.egg-info/SOURCES.txt'
+[3.506s] writing manifest file '../../build/scara_control/scara_control.egg-info/SOURCES.txt'
+[3.507s] running build
+[3.509s] running build_py
+[3.509s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build
+[3.511s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib
+[3.511s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control
+[3.513s] copying scara_control/scara_tray_line_py.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control
+[3.514s] copying scara_control/__init__.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control
+[3.516s] copying scara_control/scara_test_py.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control
+[3.517s] running install
+[3.521s] running install_lib
+[3.521s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control
+[3.524s] copying /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control/scara_tray_line_py.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control
+[3.524s] copying /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control/__init__.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control
+[3.525s] copying /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build/lib/scara_control/scara_test_py.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control
+[3.525s] byte-compiling /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control/scara_tray_line_py.py to scara_tray_line_py.cpython-310.pyc
+[3.528s] byte-compiling /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control/__init__.py to __init__.cpython-310.pyc
+[3.533s] byte-compiling /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control/scara_test_py.py to scara_test_py.cpython-310.pyc
+[3.534s] running install_data
+[3.534s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/ament_index
+[3.534s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/ament_index/resource_index
+[3.536s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/ament_index/resource_index/packages
+[3.537s] copying resource/scara_control -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/ament_index/resource_index/packages
+[3.542s] copying package.xml -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/scara_control
+[3.543s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/scara_control/config
+[3.543s] copying config/scara_controllers.yaml -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/scara_control/config
+[3.546s] creating /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/scara_control/launch
+[3.546s] copying launch/execute_trajectory.launch.py -> /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/share/scara_control/launch
+[3.546s] running install_egg_info
+[3.566s] Copying ../../build/scara_control/scara_control.egg-info to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages/scara_control-0.0.0-py3.10.egg-info
+[3.575s] running install_scripts
+[3.671s] Installing scara_tray_line script to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/scara_control
+[3.678s] writing list of installed files to '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/install.log'
+[3.785s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_control' returned '0': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_control build --build-base /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/build install --record /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_control/install.log --single-version-externally-managed install_data

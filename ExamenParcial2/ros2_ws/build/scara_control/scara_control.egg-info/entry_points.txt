@@ -1,0 +1,3 @@
+[console_scripts]
+scara_tray_line = scara_control.scara_tray_line_py:main
+

@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.001884] (-) JobUnselected: {'identifier': 'practica_1'}
+[0.002315] (scara_bringup) JobQueued: {'identifier': 'scara_bringup', 'dependencies': OrderedDict()}
+[0.002518] (scara_control) JobQueued: {'identifier': 'scara_control', 'dependencies': OrderedDict()}
+[0.002559] (scara_description) JobQueued: {'identifier': 'scara_description', 'dependencies': OrderedDict()}
+[0.008049] (scara_bringup) JobStarted: {'identifier': 'scara_bringup'}
+[0.048846] (scara_control) JobStarted: {'identifier': 'scara_control'}
+[0.064795] (scara_description) JobStarted: {'identifier': 'scara_description'}
+[0.099006] (-) TimerEvent: {}
+[0.200708] (-) TimerEvent: {}
+[0.301405] (-) TimerEvent: {}
+[0.402210] (-) TimerEvent: {}
+[0.503005] (-) TimerEvent: {}
+[0.603901] (-) TimerEvent: {}
+[0.706408] (-) TimerEvent: {}
+[0.806929] (-) TimerEvent: {}
+[0.907829] (-) TimerEvent: {}
+[1.008571] (-) TimerEvent: {}
+[1.111413] (-) TimerEvent: {}
+[1.212136] (-) TimerEvent: {}
+[1.312963] (-) TimerEvent: {}
+[1.414141] (-) TimerEvent: {}
+[1.514795] (-) TimerEvent: {}
+[1.596051] (scara_description) JobProgress: {'identifier': 'scara_description', 'progress': 'cmake'}
+[1.599515] (scara_description) Command: {'cmd': ['/usr/bin/cmake', '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_description', '-DCMAKE_INSTALL_PREFIX=/home/robousr/Robotica2025-2/robolab20252/install/scara_description'], 'cwd': '/home/robousr/Robotica2025-2/robolab20252/build/scara_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1873,unix/robolab-vm:/tmp/.ICE-unix/1873'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9cd710cc_8fc3_48ea_a396_1dab7e68056a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RUY462'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1345'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/Robotica2025-2/robolab20252/build/scara_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.615695] (-) TimerEvent: {}
+[1.717860] (-) TimerEvent: {}
+[1.818685] (-) TimerEvent: {}
+[1.919345] (-) TimerEvent: {}
+[2.024209] (-) TimerEvent: {}
+[2.125332] (-) TimerEvent: {}
+[2.226251] (-) TimerEvent: {}
+[2.327951] (-) TimerEvent: {}
+[2.428751] (-) TimerEvent: {}
+[2.529625] (-) TimerEvent: {}
+[2.632288] (-) TimerEvent: {}
+[2.677874] (scara_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.732871] (-) TimerEvent: {}
+[2.833902] (-) TimerEvent: {}
+[2.935058] (-) TimerEvent: {}
+[2.998132] (scara_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.034760] (scara_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.035361] (-) TimerEvent: {}
+[3.052889] (scara_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/scara_control', 'build', '--build-base', '/home/robousr/Robotica2025-2/robolab20252/build/scara_control/build', 'install', '--record', '/home/robousr/Robotica2025-2/robolab20252/build/scara_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'robousr', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robousr', 'OLDPWD': '/home/robousr', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/robousr/.nvm/versions/node/v20.16.0/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/robousr/.nvm/versions/node/v20.16.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1911', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIT_PS1_SHOWUNTRACKEDFILES': 'true', 'COLORTERM': 'truecolor', 'GIT_PS1_SHOWSTASHSTATE': 'true', 'NVM_DIR': '/home/robousr/.nvm', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robousr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robousr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robolab-vm:@/tmp/.ICE-unix/1873,unix/robolab-vm:/tmp/.ICE-unix/1873', 'GIT_PS1_SHOWDIRTYSTATE': 'true', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9cd710cc_8fc3_48ea_a396_1dab7e68056a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RUY462', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1345', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robousr/Robotica2025-2/robolab20252/build/scara_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': 'true', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/robousr/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robousr/Robotica2025-2/robolab20252/build/scara_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.062993] (scara_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/scara_bringup', 'build', '--build-base', '/home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build', 'install', '--record', '/home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'robousr', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robousr', 'OLDPWD': '/home/robousr', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/robousr/.nvm/versions/node/v20.16.0/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/robousr/.nvm/versions/node/v20.16.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1911', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIT_PS1_SHOWUNTRACKEDFILES': 'true', 'COLORTERM': 'truecolor', 'GIT_PS1_SHOWSTASHSTATE': 'true', 'NVM_DIR': '/home/robousr/.nvm', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robousr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robousr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robolab-vm:@/tmp/.ICE-unix/1873,unix/robolab-vm:/tmp/.ICE-unix/1873', 'GIT_PS1_SHOWDIRTYSTATE': 'true', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9cd710cc_8fc3_48ea_a396_1dab7e68056a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RUY462', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1345', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robousr/Robotica2025-2/robolab20252/build/scara_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': 'true', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/robousr/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.136067] (-) TimerEvent: {}
+[3.237736] (-) TimerEvent: {}
+[3.342138] (-) TimerEvent: {}
+[3.371694] (scara_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.394810] (scara_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.396932] (scara_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.399297] (scara_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.407361] (scara_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.444024] (-) TimerEvent: {}
+[3.545689] (-) TimerEvent: {}
+[3.646815] (-) TimerEvent: {}
+[3.667041] (scara_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.686100] (scara_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.687990] (scara_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.691108] (scara_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.737245] (scara_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.738874] (scara_control) StdoutLine: {'line': b'creating ../../../../build/scara_control/scara_control.egg-info\n'}
+[3.739806] (scara_control) StdoutLine: {'line': b'writing ../../../../build/scara_control/scara_control.egg-info/PKG-INFO\n'}
+[3.740303] (scara_control) StdoutLine: {'line': b'writing dependency_links to ../../../../build/scara_control/scara_control.egg-info/dependency_links.txt\n'}
+[3.740491] (scara_control) StdoutLine: {'line': b'writing entry points to ../../../../build/scara_control/scara_control.egg-info/entry_points.txt\n'}
+[3.742462] (scara_control) StdoutLine: {'line': b'writing requirements to ../../../../build/scara_control/scara_control.egg-info/requires.txt\n'}
+[3.744591] (scara_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.744914] (scara_control) StdoutLine: {'line': b'writing top-level names to ../../../../build/scara_control/scara_control.egg-info/top_level.txt\n'}
+[3.745043] (scara_control) StdoutLine: {'line': b"writing manifest file '../../../../build/scara_control/scara_control.egg-info/SOURCES.txt'\n"}
+[3.748767] (scara_control) StdoutLine: {'line': b"reading manifest file '../../../../build/scara_control/scara_control.egg-info/SOURCES.txt'\n"}
+[3.748974] (-) TimerEvent: {}
+[3.751436] (scara_control) StdoutLine: {'line': b"writing manifest file '../../../../build/scara_control/scara_control.egg-info/SOURCES.txt'\n"}
+[3.752283] (scara_control) StdoutLine: {'line': b'running build\n'}
+[3.752433] (scara_control) StdoutLine: {'line': b'running build_py\n'}
+[3.752534] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build\n'}
+[3.752914] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib\n'}
+[3.753051] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control\n'}
+[3.753147] (scara_control) StdoutLine: {'line': b'copying scara_control/scara_tray_line_py.py -> /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control\n'}
+[3.753758] (scara_control) StdoutLine: {'line': b'copying scara_control/__init__.py -> /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control\n'}
+[3.754334] (scara_control) StdoutLine: {'line': b'copying scara_control/scara_test_py.py -> /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control\n'}
+[3.755191] (scara_control) StdoutLine: {'line': b'running install\n'}
+[3.755354] (scara_control) StdoutLine: {'line': b'running install_lib\n'}
+[3.756616] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control\n'}
+[3.756800] (scara_control) StdoutLine: {'line': b'copying /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control/scara_tray_line_py.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control\n'}
+[3.757314] (scara_control) StdoutLine: {'line': b'copying /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control/__init__.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control\n'}
+[3.757454] (scara_control) StdoutLine: {'line': b'copying /home/robousr/Robotica2025-2/robolab20252/build/scara_control/build/lib/scara_control/scara_test_py.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control\n'}
+[3.760868] (scara_control) StdoutLine: {'line': b'byte-compiling /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control/scara_tray_line_py.py to scara_tray_line_py.cpython-310.pyc\n'}
+[3.763541] (scara_control) StdoutLine: {'line': b'byte-compiling /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control/__init__.py to __init__.cpython-310.pyc\n'}
+[3.765927] (scara_control) StdoutLine: {'line': b'byte-compiling /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control/scara_test_py.py to scara_test_py.cpython-310.pyc\n'}
+[3.766324] (scara_control) StdoutLine: {'line': b'running install_data\n'}
+[3.766444] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/ament_index\n'}
+[3.766538] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/ament_index/resource_index\n'}
+[3.767381] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/ament_index/resource_index/packages\n'}
+[3.768188] (scara_control) StdoutLine: {'line': b'copying resource/scara_control -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/ament_index/resource_index/packages\n'}
+[3.768391] (scara_control) StdoutLine: {'line': b'copying package.xml -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/scara_control\n'}
+[3.769005] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/scara_control/config\n'}
+[3.769155] (scara_control) StdoutLine: {'line': b'copying config/scara_controllers.yaml -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/scara_control/config\n'}
+[3.771130] (scara_control) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/scara_control/launch\n'}
+[3.771321] (scara_control) StdoutLine: {'line': b'copying launch/execute_trajectory.launch.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_control/share/scara_control/launch\n'}
+[3.771505] (scara_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.778729] (scara_control) StdoutLine: {'line': b'Copying ../../../../build/scara_control/scara_control.egg-info to /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/python3.10/site-packages/scara_control-0.0.0-py3.10.egg-info\n'}
+[3.782861] (scara_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.806073] (scara_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.807382] (scara_bringup) StdoutLine: {'line': b'creating ../../../../build/scara_bringup/scara_bringup.egg-info\n'}
+[3.807522] (scara_bringup) StdoutLine: {'line': b'writing ../../../../build/scara_bringup/scara_bringup.egg-info/PKG-INFO\n'}
+[3.807622] (scara_bringup) StdoutLine: {'line': b'writing dependency_links to ../../../../build/scara_bringup/scara_bringup.egg-info/dependency_links.txt\n'}
+[3.807713] (scara_bringup) StdoutLine: {'line': b'writing entry points to ../../../../build/scara_bringup/scara_bringup.egg-info/entry_points.txt\n'}
+[3.811033] (scara_bringup) StdoutLine: {'line': b'writing requirements to ../../../../build/scara_bringup/scara_bringup.egg-info/requires.txt\n'}
+[3.811263] (scara_bringup) StdoutLine: {'line': b'writing top-level names to ../../../../build/scara_bringup/scara_bringup.egg-info/top_level.txt\n'}
+[3.811369] (scara_bringup) StdoutLine: {'line': b"writing manifest file '../../../../build/scara_bringup/scara_bringup.egg-info/SOURCES.txt'\n"}
+[3.813782] (scara_bringup) StdoutLine: {'line': b"reading manifest file '../../../../build/scara_bringup/scara_bringup.egg-info/SOURCES.txt'\n"}
+[3.814240] (scara_bringup) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.815728] (scara_bringup) StdoutLine: {'line': b"writing manifest file '../../../../build/scara_bringup/scara_bringup.egg-info/SOURCES.txt'\n"}
+[3.817359] (scara_bringup) StdoutLine: {'line': b'running build\n'}
+[3.817564] (scara_bringup) StdoutLine: {'line': b'running build_py\n'}
+[3.817672] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build\n'}
+[3.817768] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build/lib\n'}
+[3.817859] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build/lib/scara_bringup\n'}
+[3.818024] (scara_bringup) StdoutLine: {'line': b'copying scara_bringup/__init__.py -> /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build/lib/scara_bringup\n'}
+[3.819102] (scara_bringup) StdoutLine: {'line': b'copying scara_bringup/initial_joint_state_publisher_py.py -> /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build/lib/scara_bringup\n'}
+[3.819559] (scara_bringup) StdoutLine: {'line': b'running install\n'}
+[3.820364] (scara_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[3.821885] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages/scara_bringup\n'}
+[3.822673] (scara_bringup) StdoutLine: {'line': b'copying /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build/lib/scara_bringup/__init__.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages/scara_bringup\n'}
+[3.823040] (scara_bringup) StdoutLine: {'line': b'copying /home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/build/lib/scara_bringup/initial_joint_state_publisher_py.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages/scara_bringup\n'}
+[3.824867] (scara_control) StdoutLine: {'line': b'Installing scara_tray_line script to /home/robousr/Robotica2025-2/robolab20252/install/scara_control/lib/scara_control\n'}
+[3.826136] (scara_bringup) StdoutLine: {'line': b'byte-compiling /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages/scara_bringup/__init__.py to __init__.cpython-310.pyc\n'}
+[3.826804] (scara_control) StdoutLine: {'line': b"writing list of installed files to '/home/robousr/Robotica2025-2/robolab20252/build/scara_control/install.log'\n"}
+[3.827515] (scara_bringup) StdoutLine: {'line': b'byte-compiling /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages/scara_bringup/initial_joint_state_publisher_py.py to initial_joint_state_publisher_py.cpython-310.pyc\n'}
+[3.828490] (scara_bringup) StdoutLine: {'line': b'running install_data\n'}
+[3.829023] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/ament_index\n'}
+[3.829552] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/ament_index/resource_index\n'}
+[3.831872] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/ament_index/resource_index/packages\n'}
+[3.832520] (scara_bringup) StdoutLine: {'line': b'copying resource/scara_bringup -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/ament_index/resource_index/packages\n'}
+[3.832940] (scara_bringup) StdoutLine: {'line': b'copying package.xml -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup\n'}
+[3.835359] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup/launch\n'}
+[3.836152] (scara_bringup) StdoutLine: {'line': b'copying launch/bringup_gazebo.launch.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup/launch\n'}
+[3.836764] (scara_bringup) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup/launch\n'}
+[3.837537] (scara_bringup) StdoutLine: {'line': b'creating /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup/worlds\n'}
+[3.837836] (scara_bringup) StdoutLine: {'line': b'copying worlds/scara_world.sdf -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup/worlds\n'}
+[3.847580] (scara_bringup) StdoutLine: {'line': b'copying worlds/scara_world.config -> /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/share/scara_bringup/worlds\n'}
+[3.849144] (scara_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.849550] (-) TimerEvent: {}
+[3.852992] (scara_bringup) StdoutLine: {'line': b'Copying ../../../../build/scara_bringup/scara_bringup.egg-info to /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/python3.10/site-packages/scara_bringup-0.0.0-py3.10.egg-info\n'}
+[3.857141] (scara_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[3.897501] (scara_control) CommandEnded: {'returncode': 0}
+[3.914836] (scara_bringup) StdoutLine: {'line': b'Installing initial_joint_state script to /home/robousr/Robotica2025-2/robolab20252/install/scara_bringup/lib/scara_bringup\n'}
+[3.916591] (scara_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/robousr/Robotica2025-2/robolab20252/build/scara_bringup/install.log'\n"}
+[3.944611] (scara_control) JobEnded: {'identifier': 'scara_control', 'rc': 0}
+[3.950312] (-) TimerEvent: {}
+[3.974848] (scara_bringup) CommandEnded: {'returncode': 0}
+[3.990962] (scara_bringup) JobEnded: {'identifier': 'scara_bringup', 'rc': 0}
+[4.050967] (-) TimerEvent: {}
+[4.152079] (-) TimerEvent: {}
+[4.253231] (-) TimerEvent: {}
+[4.359638] (-) TimerEvent: {}
+[4.461272] (-) TimerEvent: {}
+[4.562822] (-) TimerEvent: {}
+[4.664309] (-) TimerEvent: {}
+[4.765099] (-) TimerEvent: {}
+[4.865785] (-) TimerEvent: {}
+[4.966904] (-) TimerEvent: {}
+[4.995043] (scara_description) StdoutLine: {'line': b'-- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.067277] (-) TimerEvent: {}
+[5.168082] (-) TimerEvent: {}
+[5.269016] (-) TimerEvent: {}
+[5.369951] (-) TimerEvent: {}
+[5.402734] (scara_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[5.470274] (-) TimerEvent: {}
+[5.571165] (-) TimerEvent: {}
+[5.660027] (scara_description) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[5.671778] (-) TimerEvent: {}
+[5.675949] (scara_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[5.772424] (-) TimerEvent: {}
+[5.873686] (-) TimerEvent: {}
+[5.877269] (scara_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.897584] (scara_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.940242] (scara_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.974956] (-) TimerEvent: {}
+[6.000854] (scara_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.054392] (scara_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.075359] (-) TimerEvent: {}
+[6.176479] (-) TimerEvent: {}
+[6.253168] (scara_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.264987] (scara_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.276908] (-) TimerEvent: {}
+[6.378350] (-) TimerEvent: {}
+[6.385607] (scara_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.479108] (-) TimerEvent: {}
+[6.545152] (scara_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.555409] (scara_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.579718] (-) TimerEvent: {}
+[6.589527] (scara_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.595384] (scara_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.617325] (scara_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.638883] (scara_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.671635] (scara_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.681228] (-) TimerEvent: {}
+[6.782674] (-) TimerEvent: {}
+[6.884409] (-) TimerEvent: {}
+[6.897635] (scara_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.902101] (scara_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.986009] (-) TimerEvent: {}
+[7.086727] (-) TimerEvent: {}
+[7.151078] (scara_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.151384] (scara_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.187424] (-) TimerEvent: {}
+[7.288652] (-) TimerEvent: {}
+[7.375582] (scara_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[7.378889] (scara_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[7.390847] (-) TimerEvent: {}
+[7.417649] (scara_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[7.491003] (-) TimerEvent: {}
+[7.599590] (-) TimerEvent: {}
+[7.700577] (-) TimerEvent: {}
+[7.762949] (scara_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[7.800795] (-) TimerEvent: {}
+[7.902282] (-) TimerEvent: {}
+[7.905132] (scara_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[7.979787] (scara_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[8.003011] (-) TimerEvent: {}
+[8.084548] (scara_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[8.103933] (-) TimerEvent: {}
+[8.205098] (-) TimerEvent: {}
+[8.207092] (scara_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.225405] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.262783] (scara_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.268817] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.269869] (scara_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[8.283676] (scara_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[8.305453] (-) TimerEvent: {}
+[8.320553] (scara_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[8.406024] (-) TimerEvent: {}
+[8.425986] (scara_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.442511] (scara_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.464729] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.476980] (scara_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.478223] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.489464] (scara_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[8.489680] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[8.498860] (scara_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[8.499479] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[8.506593] (-) TimerEvent: {}
+[8.509182] (scara_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[8.509421] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[8.518580] (scara_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[8.518794] (scara_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[8.529593] (scara_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[8.607399] (-) TimerEvent: {}
+[8.708421] (-) TimerEvent: {}
+[8.756024] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.765088] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[8.766661] (scara_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[8.810461] (-) TimerEvent: {}
+[8.816996] (scara_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[8.843689] (scara_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[8.859205] (scara_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[8.907152] (scara_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[8.910809] (-) TimerEvent: {}
+[9.011911] (-) TimerEvent: {}
+[9.031694] (scara_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[9.047267] (scara_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[9.083222] (scara_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[9.112646] (-) TimerEvent: {}
+[9.204407] (scara_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[9.212993] (-) TimerEvent: {}
+[9.229029] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.229431] (scara_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[9.277264] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.295191] (scara_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[9.313589] (-) TimerEvent: {}
+[9.341978] (scara_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[9.413853] (-) TimerEvent: {}
+[9.465168] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.472034] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[9.473098] (scara_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[9.474416] (scara_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[9.476128] (scara_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[9.479192] (scara_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[9.512387] (scara_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[9.514354] (-) TimerEvent: {}
+[9.515023] (scara_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[9.522581] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[9.524183] (scara_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[9.524718] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.536042] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[9.538384] (scara_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[9.614970] (-) TimerEvent: {}
+[9.716163] (-) TimerEvent: {}
+[9.762472] (scara_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[9.788146] (scara_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[9.816677] (-) TimerEvent: {}
+[9.826680] (scara_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[9.917314] (-) TimerEvent: {}
+[9.927943] (scara_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[9.941658] (scara_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[9.978885] (scara_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[10.017768] (-) TimerEvent: {}
+[10.080647] (scara_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[10.082511] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.083040] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.083958] (scara_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.099010] (scara_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[10.102346] (scara_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[10.118529] (-) TimerEvent: {}
+[10.138732] (scara_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[10.218955] (-) TimerEvent: {}
+[10.252389] (scara_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.320256] (-) TimerEvent: {}
+[10.421897] (-) TimerEvent: {}
+[10.522577] (-) TimerEvent: {}
+[10.625023] (-) TimerEvent: {}
+[10.643039] (scara_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.651289] (scara_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.657829] (scara_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.699181] (scara_description) StdoutLine: {'line': b'-- Generating done\n'}
+[10.725330] (-) TimerEvent: {}
+[10.727167] (scara_description) StdoutLine: {'line': b'-- Build files have been written to: /home/robousr/Robotica2025-2/robolab20252/build/scara_description\n'}
+[10.761823] (scara_description) CommandEnded: {'returncode': 0}
+[10.763879] (scara_description) JobProgress: {'identifier': 'scara_description', 'progress': 'build'}
+[10.763986] (scara_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robousr/Robotica2025-2/robolab20252/build/scara_description', '--', '-j4', '-l4'], 'cwd': '/home/robousr/Robotica2025-2/robolab20252/build/scara_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1873,unix/robolab-vm:/tmp/.ICE-unix/1873'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9cd710cc_8fc3_48ea_a396_1dab7e68056a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RUY462'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1345'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/Robotica2025-2/robolab20252/build/scara_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.825834] (-) TimerEvent: {}
+[10.887410] (scara_description) CommandEnded: {'returncode': 0}
+[10.895559] (scara_description) JobProgress: {'identifier': 'scara_description', 'progress': 'install'}
+[10.931244] (scara_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robousr/Robotica2025-2/robolab20252/build/scara_description'], 'cwd': '/home/robousr/Robotica2025-2/robolab20252/build/scara_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robousr'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robousr'), ('OLDPWD', '/home/robousr'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/robousr/.nvm/versions/node/v20.16.0/bin'), ('PYENV_SHELL', 'bash'), ('NVM_INC', '/home/robousr/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIT_PS1_SHOWUNTRACKEDFILES', 'true'), ('COLORTERM', 'truecolor'), ('GIT_PS1_SHOWSTASHSTATE', 'true'), ('NVM_DIR', '/home/robousr/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robousr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robousr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robousr/.nvm/versions/node/v20.16.0/bin:/home/robousr/.pyenv/shims:/home/robousr/.pyenv/bin:/home/robousr/.local/bin:/home/robousr/.cargo/bin:/home/robousr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robolab-vm:@/tmp/.ICE-unix/1873,unix/robolab-vm:/tmp/.ICE-unix/1873'), ('GIT_PS1_SHOWDIRTYSTATE', 'true'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9cd710cc_8fc3_48ea_a396_1dab7e68056a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RUY462'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1345'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robousr/Robotica2025-2/robolab20252/build/scara_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', 'true'), ('NVM_CD_FLAGS', ''), ('PYENV_ROOT', '/home/robousr/.pyenv'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.932127] (-) TimerEvent: {}
+[10.959045] (scara_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.960117] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//launch\n'}
+[10.964257] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf\n'}
+[10.967360] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints\n'}
+[10.967629] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara_manual-checkpoint.urdf\n'}
+[10.970434] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/.ipynb_checkpoints/scara-checkpoint.urdf\n'}
+[10.976258] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/meshes\n'}
+[10.976752] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/meshes/link11.stl\n'}
+[10.981728] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/meshes/link31.stl\n'}
+[10.986520] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/meshes/link21.stl\n'}
+[10.995164] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/meshes/base_link.stl\n'}
+[11.002791] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/scara_test.urdf\n'}
+[11.005739] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/scara.urdf\n'}
+[11.010931] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//urdf/scara_cad.urdf\n'}
+[11.012243] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//rviz\n'}
+[11.012703] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description//rviz/scara_rviz.rviz\n'}
+[11.018784] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description\n'}
+[11.020378] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description\n'}
+[11.022040] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/environment/ament_prefix_path.sh\n'}
+[11.023275] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv\n'}
+[11.026425] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/environment/path.sh\n'}
+[11.029311] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/environment/path.dsv\n'}
+[11.029578] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/local_setup.bash\n'}
+[11.029742] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/local_setup.sh\n'}
+[11.030990] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/local_setup.zsh\n'}
+[11.032020] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/local_setup.dsv\n'}
+[11.032304] (-) TimerEvent: {}
+[11.033088] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/package.dsv\n'}
+[11.034477] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/ament_index/resource_index/packages/scara_description\n'}
+[11.035410] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake\n'}
+[11.036304] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake\n'}
+[11.041047] (scara_description) StdoutLine: {'line': b'-- Installing: /home/robousr/Robotica2025-2/robolab20252/install/scara_description/share/scara_description/package.xml\n'}
+[11.044872] (scara_description) CommandEnded: {'returncode': 0}
+[11.080111] (scara_description) JobEnded: {'identifier': 'scara_description', 'rc': 0}
+[11.083325] (-) EventReactorShutdown: {}
