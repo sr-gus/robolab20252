@@ -13,7 +13,6 @@ def generate_launch_description():
     urdf_file  = os.path.join(desc_share, 'urdf', 'scara.urdf')
     rviz_cfg   = os.path.join(desc_share, 'rviz', 'scara_rviz.rviz')
 
-    # xacro → robot_description
     robot_description = {
         'robot_description': Command([
             FindExecutable(name='xacro'), ' ', urdf_file
@@ -21,13 +20,11 @@ def generate_launch_description():
     }
 
     return LaunchDescription([
-        # 0) publica estado inicial con latch
         ExecuteProcess(
             cmd=['ros2', 'run', 'scara_bringup', 'initial_joint_state'],
             output='screen'
         ),
 
-        # 1) robot_state_publisher
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
@@ -35,7 +32,6 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # 2) RViz
         Node(
             package='rviz2',
             executable='rviz2',

@@ -7,7 +7,6 @@ package_name = 'scara_bringup'
 setup(
     name=package_name,
     version='0.0.0',
-    # ahora sí encuentra scara_bringup/
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',

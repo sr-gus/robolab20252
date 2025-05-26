@@ -9,10 +9,8 @@ import time
 def main(args=None):
     rclpy.init(args=args)
 
-    # Creamos el nodo sin parámetros en el constructor
     node = Node('initial_joint_state_publisher')
 
-    # Declaramos use_sim_time si no existe
     try:
         node.declare_parameter('use_sim_time', True)
     except ParameterAlreadyDeclaredException:
@@ -25,7 +23,6 @@ def main(args=None):
     qos.durability = DurabilityPolicy.TRANSIENT_LOCAL
     pub = node.create_publisher(JointState, '/joint_states', qos)
 
-    # Esperamos a que clock comience
     time.sleep(5)
 
     js = JointState()

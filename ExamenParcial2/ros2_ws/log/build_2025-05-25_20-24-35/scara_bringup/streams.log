@@ -1,0 +1,22 @@
+[3.138s] Invoking command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_bringup': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_bringup build --build-base /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/build install --record /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/install.log --single-version-externally-managed install_data
+[3.874s] running egg_info
+[3.875s] writing ../../build/scara_bringup/scara_bringup.egg-info/PKG-INFO
+[3.875s] writing dependency_links to ../../build/scara_bringup/scara_bringup.egg-info/dependency_links.txt
+[3.876s] writing entry points to ../../build/scara_bringup/scara_bringup.egg-info/entry_points.txt
+[3.876s] writing requirements to ../../build/scara_bringup/scara_bringup.egg-info/requires.txt
+[3.877s] writing top-level names to ../../build/scara_bringup/scara_bringup.egg-info/top_level.txt
+[3.883s] reading manifest file '../../build/scara_bringup/scara_bringup.egg-info/SOURCES.txt'
+[3.883s] adding license file 'LICENSE'
+[3.884s] writing manifest file '../../build/scara_bringup/scara_bringup.egg-info/SOURCES.txt'
+[3.884s] running build
+[3.884s] running build_py
+[3.888s] running install
+[3.888s] running install_lib
+[3.893s] running install_data
+[3.893s] running install_egg_info
+[3.894s] removing '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages/scara_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[3.902s] Copying ../../build/scara_bringup/scara_bringup.egg-info to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages/scara_bringup-0.0.0-py3.10.egg-info
+[3.903s] running install_scripts
+[3.953s] Installing initial_joint_state script to /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/scara_bringup
+[3.955s] writing list of installed files to '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/install.log'
+[4.039s] Invoked command in '/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/src/scara_bringup' returned '0': PYTHONPATH=/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/install/scara_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scara_bringup build --build-base /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/build install --record /home/robousr/Robotica2025-2/robolab20252/ExamenParcial2/ros2_ws/build/scara_bringup/install.log --single-version-externally-managed install_data

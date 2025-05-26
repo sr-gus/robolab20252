@@ -9,7 +9,6 @@ setup.py
 ../../build/scara_control/scara_control.egg-info/top_level.txt
 ../../build/scara_control/scara_control.egg-info/zip-safe
 config/scara_controllers.yaml
-launch/execute_trajectory.launch.py
 resource/scara_control
 scara_control/__init__.py
 scara_control/scara_test_py.py
